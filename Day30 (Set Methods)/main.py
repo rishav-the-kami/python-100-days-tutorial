@@ -88,3 +88,18 @@ del s1
 a = 2
 del a
 # print(a)  # throws an error
+
+
+# SECTION clear() - clears an entire set
+s1 = {1, 2, 3, 4}
+s1.clear()
+print(s1)
+
+
+# SECTION check if an item exists in a set
+s1 = {"Japan", "Croatia", "Germany"}
+
+if "Japan" in s1:
+    print(True)
+else:
+    print(False)
